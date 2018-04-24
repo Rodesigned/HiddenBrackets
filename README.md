@@ -6,7 +6,7 @@ Team Project 3 Hidden Brackets
 
 <b>Project Name:</b> Kinfolk <br/>
 
-<b>Team Members:</b> 
+<b>Team Members:</b> <br/>
 Courtney Williams<br/> 
 Charronda King<br/> 
 Rosita Cabrera<br/> 
