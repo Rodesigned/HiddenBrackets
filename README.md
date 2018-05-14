@@ -33,7 +33,7 @@ Courtney Williams: Frontend<br>
 Charronda King: Powerpoint <br>
 
 
-<b>To view this project use the EXPO client...</b>
+<b>To view this project use the EXPO client...</b><br>
 First Clone Repo to your deskstop the run npm install to add dependencies (node modules)
 
 <b>Installation</b>
