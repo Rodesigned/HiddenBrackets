@@ -26,9 +26,8 @@ Material<br>
 
 
 <b>Group Member Roles:</b><br> 
-
 Rosita Cabrera: Backend React Native App / Expo<br>
 Teresa Jackson: Backend React Native App / Expo<br>
+Curtis Gordon: Backend React Native App<br>
 Courtney Williams: Frontend<br>
-Curtis Gordon: Frontend <br>
 Charronda King: Powerpoint <br>
