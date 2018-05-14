@@ -1,5 +1,5 @@
 # HiddenBrackets
-Team Project 3
+<b>Team Project 3</b>
 
 <b>Group Name:</b> Hidden Brackets 
 
