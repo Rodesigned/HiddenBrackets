@@ -34,6 +34,7 @@ Charronda King: Powerpoint <br>
 
 
 To view this project use the EXPO client...
+First Clone Repo to your deskstop the run npm install to add dependencies (node modules)
 
 <b>Installation</b>
 Desktop Tool: XDE
