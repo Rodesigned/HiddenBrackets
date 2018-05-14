@@ -1,12 +1,14 @@
-import { Platform, Dimensions } from "react-native";
+import { Platform, Dimensions } from 'react-native';
+import _ from 'lodash';
+import {Constants} from "expo";
 
-import variable from "./../variables/platform";
+import variable from './../variables/platform';
 
-const deviceHeight = Dimensions.get("window").height;
+const deviceHeight = Dimensions.get('window').height;
 export default (variables = variable) => {
   const theme = {
     flex: 1,
-    height: Platform.OS === "ios" ? deviceHeight : deviceHeight - 20
+    paddingTop: Constants.statusBarHeight
   };
 
   return theme;

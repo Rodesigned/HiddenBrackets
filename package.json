@@ -3,12 +3,12 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
+    "deploy": "firebase deploy",
     "test": "node ./node_modules/jest/bin/jest.js --watchAll",
     "start": "react-native-scripts start",
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test:watch": "node node_modules/jest/bin/jest.js --watch",
     "flow": "flow check --show-all-errors | flow-result-checker",
     "lint": "eslint App.js App.test.js src/",
     "install": "firebase-bolt < rules.bolt > rules.json && firebase-bolt-transpiler --flow < rules.bolt > src/Model.js"

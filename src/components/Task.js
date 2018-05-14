@@ -4,10 +4,8 @@ import * as _ from "lodash";
 import * as React from "react";
 import {View, Text, StyleSheet} from "react-native";
 import {H3} from "native-base";
-
 import {Avatar, Styles, Circle} from "../components";
 import {Task as ITask} from "../Model";
-
 import variables from "../../native-base-theme/variables/commonColor";
 
 type TaskProps = {

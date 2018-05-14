@@ -22,14 +22,14 @@ export default class Lists extends React.Component<ScreenProps<>> {
     render(): React.Node {
         const {tasks, loading} = this.store;
         return (
-            <BaseContainer title="Lists" navigation={this.props.navigation} scrollable>
+            <BaseContainer title="Lists of Events" navigation={this.props.navigation} scrollable>
                 {
                     !loading && (
                         <View>
                             <View style={[Styles.center, Styles.header]}>
                                 <Image source={Images.lists} style={[StyleSheet.absoluteFill, Styles.header]} />
-                                <View style={[StyleSheet.absoluteFill, style.mask]} />
-                                <H1 style={Styles.whiteText}>Task List</H1>
+                                
+                               
                             </View>
                             {
                                 !tasks && (

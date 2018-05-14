@@ -2,7 +2,7 @@
 import autobind from "autobind-decorator";
 import * as React from "react";
 import {View, Image, StyleSheet, Dimensions, StatusBar, Platform} from "react-native";
-import {Button, Header, Left, Right, Body, Icon, Title, Spinner, Input, Content} from "native-base";
+import {Text, Button, Header, Left, Right, Body, Icon, Title, Spinner, Input, Content} from "native-base";
 import {observer} from "mobx-react/native";
 
 import SignUpStore from "./SignUpStore";
@@ -93,12 +93,9 @@ export default class SignUp extends React.Component<ScreenProps<>> {
                         <Right />
                     </Header>
                     <View>
-                        <Image source={Images.signUp} resizeMode="cover" style={style.img} />
-                        <View style={[StyleSheet.absoluteFill, Styles.imgMask, Styles.center]}>
-                            <View style={style.circle}>
-                                <Icon name="ios-add-outline" style={style.icon} />
-                            </View>
-                        </View>
+                        <Image source={Images.signUp} resizeMode="cover" style={style.img.center} />
+                        <View style={[Styles.imgMask, Styles.center]}>
+                    </View>
                     </View>
                     <Field
                         label="Name"
@@ -129,9 +126,11 @@ export default class SignUp extends React.Component<ScreenProps<>> {
                         onSubmitEditing={this.signIn}
                         returnKeyType="go"
                     />
-                    <Button primary full onPress={this.signIn} style={{height: variables.footerHeight}}>
-                        {this.store.loading ? <Spinner color="white" /> : <Icon name="md-checkmark" />}
+                   
+                    <Button success full onPress={this.signIn} style={{height: variables.footerHeight}}>
+                        {this.store.loading ? <Spinner color="white" /> : < Text > Create Account </Text >}
                     </Button>
+                    
                 </Content>
             </Container>
         );
@@ -143,17 +142,11 @@ const style = StyleSheet.create({
     content: {
         backgroundColor: "white"
     },
+    
     img: {
-        height: width * 0.62
+        height: width * 0.62,
     },
-    circle: {
-        backgroundColor: "white",
-        height: 125,
-        width: 125,
-        borderRadius: 62.5,
-        justifyContent: "center",
-        alignItems: "center"
-    },
+   
     icon: {
         fontSize: 75,
         color: variables.brandInfo

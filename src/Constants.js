@@ -44,10 +44,7 @@ const DEFAULT_USER = (name: string): User => ({
                     "title": "Read article \"Designing for Mobile\"",
                     "done": false
                 },
-                "3P7318FAZoQVJCXfZcWcyGs5cVx1": {
-                    "title": "Revise wireframes",
-                    "done": true
-                },
+                
                 "3rEh63HRkNgQlnCZwFadNp2tuq52": {
                     "title": "Catch up with Mary",
                     "done": false
@@ -95,15 +92,7 @@ const DEFAULT_USER = (name: string): User => ({
             }
         }
     },
-    tasks: {
-        "-KrpI_77r8nBwiT1CYxl": {
-            "done": false,
-            "project": "My project",
-            "time": 1503059100,
-            "title": "Revise UI frames",
-            "participants": {}
-        }
-    }
+    
 });
 
 export {DEFAULT_USER};

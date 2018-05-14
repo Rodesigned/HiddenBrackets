@@ -37,6 +37,6 @@ export interface Task {
 }
 
 export interface Participant {
-  uuid: string,
+  uid: string,
 }
 

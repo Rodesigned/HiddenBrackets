@@ -49,5 +49,6 @@ export default class CreateStore {
         const task: Task = {title, time, project, participants: {}, done};
         await Firebase.userRef.child("tasks").push(task);
         this.loading = false;
-    }
+    } 
+       
 }

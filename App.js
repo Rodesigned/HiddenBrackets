@@ -10,19 +10,16 @@ import {observer, Provider} from "mobx-react/native";
 import {Login} from "./src/login";
 import {SignUp} from "./src/sign-up";
 import {Images, Firebase} from "./src/components";
-import {ForgotPassword} from "./src/forgot-password";
-import {Walkthrough} from "./src/walkthrough";
+import {ForgotPassword} from "./src/forgot-password"; 
+import {Chat} from "./src/chat";
 import {Drawer} from "./src/drawer";
 import {Home} from "./src/home";
-import {Calendar} from "./src/calendar";
-import {Overview} from "./src/overview";
-import {Groups} from "./src/groups";
 import {Lists} from "./src/lists";
-import {Profile} from "./src/profile";
 import {Timeline} from "./src/timeline";
 import {Settings} from "./src/settings";
 import {Create} from "./src/create";
 import MainStore from "./src/MainStore";
+import {ToDoList} from "./src/ToDoList";
 
 import getTheme from "./native-base-theme/components";
 import variables from "./native-base-theme/variables/commonColor";
@@ -96,12 +93,13 @@ console.ignoredYellowBox = [
 
 const MainNavigator = DrawerNavigator({
     Home: { screen: Home },
-    Calendar: { screen: Calendar },
     Lists: { screen: Lists },
-    Profile: { screen: Profile },
     Timeline: { screen: Timeline },
     Settings: { screen: Settings },
-    Create: { screen: Create }
+    Create: { screen: Create },
+    ToDoList: { screen: ToDoList },
+    Chat: { screen: Chat }
+
 }, {
     drawerWidth: Dimensions.get("window").width,
     contentComponent: Drawer
@@ -110,7 +108,7 @@ const MainNavigator = DrawerNavigator({
 const navigatorOptions = {
     headerMode: "none",
     cardStyle: {
-        backgroundColor: "white"
+    backgroundColor: "white"
     }
 };
 
@@ -125,3 +123,5 @@ const PublicNavigator = StackNavigator({
 }, navigatorOptions);
 
 export {PublicNavigator};
+
+

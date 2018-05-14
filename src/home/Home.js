@@ -26,10 +26,8 @@ export default class Home extends React.Component<ScreenProps<>> {
                 <View style={[Styles.center, Styles.flexGrow]}>
                     <Image source={Images.home} style={[StyleSheet.absoluteFill, style.img]} />
                     <H1>Good Morning!</H1>
+                    <H1>Jones Family</H1>
                     <Circle color={variables.brandInfo} size={150} style={style.circle}>
-                        <Circle color={variables.brandPrimary} size={30} style={style.badge}>
-                            <Text style={style.text}>8</Text>
-                        </Circle>
                         <Text style={[style.text, style.month]}>{dayOfMonth}</Text>
                         <Text style={style.text}>{dayOfWeek}</Text>
                     </Circle>
@@ -47,11 +45,7 @@ const style = StyleSheet.create({
     circle: {
         marginVertical: variables.contentPadding * 4
     },
-    badge: {
-        position: "absolute",
-        right: 10,
-        top: 10
-    },
+
     text: {
         fontFamily: variables.titleFontfamily,
         color: "white"

@@ -5,9 +5,7 @@ import {observer} from "mobx-react/native";
 import {StyleSheet, View, Text, Image} from "react-native";
 import {H1, Button, Spinner, ListItem, Item, Body, Label, Input} from "native-base";
 import DatePicker from "react-native-datepicker";
-
 import CreateStore from "./CreateStore";
-
 import {BaseContainer, Styles, Images, Field, WindowDimensions} from "../components";
 import type {ScreenProps} from "../components/Types";
 import variables from "../../native-base-theme/variables/commonColor";
@@ -51,11 +49,10 @@ export default class Create extends React.Component<ScreenProps<>> {
             </View>
         );
         return (
-            <BaseContainer safe title="Create New" navigation={this.props.navigation} scrollable {...{footer}}>
+            <BaseContainer safe title="Create Event" navigation={this.props.navigation} scrollable {...{footer}}>
                 <View style={[Styles.center, Styles.header]}>
                     <Image source={Images.lists} style={[StyleSheet.absoluteFill, Styles.header]} />
-                    <View style={[StyleSheet.absoluteFill, style.mask]} />
-                    <H1 style={Styles.whiteText}>NEW TASK</H1>
+                    <H1 style={Styles.whiteText}></H1>
                 </View>
                 <Field
                     label="Title"

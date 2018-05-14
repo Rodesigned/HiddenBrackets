@@ -7,11 +7,9 @@ import {H1, Button, Text, Spinner, Input, Content} from "native-base";
 import {Constants} from "expo";
 
 import LoginStore from "./LoginStore";
-import Mark from "./Mark";
 
 import {Small, Styles, Images, Field, WindowDimensions} from "../components";
 import {AnimatedView} from "../components/Animations";
-
 import type {ScreenProps} from "../components/Types";
 
 import variables from "../../native-base-theme/variables/commonColor";
@@ -63,8 +61,7 @@ export default class Login extends React.Component<ScreenProps<>> {
                         >
                         <View style={style.logo}>
                             <View>
-                                <Mark />
-                                <H1 style={style.title}>Get Started!</H1>
+                              <H1 style={style.title}>Memories Cherished!</H1>
                             </View>
                         </View>
                         <View style={style.blur}>
@@ -92,7 +89,7 @@ export default class Login extends React.Component<ScreenProps<>> {
                             />
                             <View>
                                 <View>
-                                    <Button primary full onPress={this.signIn}>
+                                    <Button success full onPress={this.signIn}>
                                     {this.store.loading ? <Spinner color="black" /> : <Text>Sign In</Text>}
                                     </Button>
                                 </View>
@@ -131,7 +128,7 @@ const style = StyleSheet.create({
         marginBottom: variables.contentPadding * 2
     },
     title: {
-        marginTop: variables.contentPadding * 2,
+        marginTop: variables.contentPadding * 25,
         color: "white",
         textAlign: "center"
     },

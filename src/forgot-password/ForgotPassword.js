@@ -4,11 +4,8 @@ import {observer} from "mobx-react/native";
 import * as React from "react";
 import {StyleSheet, Image, View} from "react-native";
 import {Button, Spinner, Text} from "native-base";
-
 import ForgotPasswordStore from "./ForgotPasswordStore";
-
 import {Images, WindowDimensions, Field, Small, Styles} from "../components";
-
 import type {ScreenProps} from "../components/Types";
 
 @observer
@@ -50,7 +47,9 @@ export default class ForgotPassword extends React.Component<ScreenProps<>> {
                         onSubmitEditing={this.submit}
                         inverse
                     />
-                    <Button primary full onPress={this.submit}>
+                    
+                  
+                    <Button success full onPress={this.submit}>
                         {this.store.loading ? <Spinner color="white" /> : <Text>Reset Password</Text>}
                     </Button>
                     <Button transparent full onPress={this.login}>
@@ -65,10 +64,13 @@ export default class ForgotPassword extends React.Component<ScreenProps<>> {
 const style = StyleSheet.create({
     img: {
         ...WindowDimensions,
-        ...StyleSheet.absoluteFillObject
+        ...StyleSheet.absoluteFillObject,
+        
     },
     container: {
         justifyContent: "center",
-        ...StyleSheet.absoluteFillObject
-    }
+        ...StyleSheet.absoluteFillObject,
+        paddingTop: 150
+    },
+
 });
