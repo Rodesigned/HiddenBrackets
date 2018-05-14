@@ -40,3 +40,8 @@ Desktop Tool: XDE
 XDE stands for Expo Development Environment. It is a standalone desktop app that includes all dependencies you'll need to get started.
 Download the latest version of XDE for macOS, Windows (64-bit), or Linux.
 https://docs.expo.io/versions/latest/introduction/installation.html
+
+<b>On your device</b>
+Download for Android from the Play Store or for iOS from the App Store...
+https://play.google.com/store/apps/details?id=host.exp.exponent
+https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?path=apps%2fexponent
