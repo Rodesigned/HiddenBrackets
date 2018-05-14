@@ -16,7 +16,7 @@ Charronda King
 
 <b>APIs:</b> <br>
 Firebase API 
-Sign Auth.
+Sign-In Auth.
 
 <b>Other technologies we will use:</b><br>
 Expo Client used to Build both iOS and Android app and to review, test, and deploy. <br>
