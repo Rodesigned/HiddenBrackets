@@ -31,3 +31,11 @@ Teresa Jackson: Backend React Native App / Expo<br>
 Curtis Gordon: Backend React Native App<br>
 Courtney Williams: Frontend<br>
 Charronda King: Powerpoint <br>
+
+
+To view this project use the EXPO client...
+
+<b>Installation</b>
+Desktop Tool: XDE
+XDE stands for Expo Development Environment. It is a standalone desktop app that includes all dependencies you'll need to get started.
+Download the latest version of XDE for macOS, Windows (64-bit), or Linux.
