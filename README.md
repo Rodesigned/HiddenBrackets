@@ -39,3 +39,4 @@ To view this project use the EXPO client...
 Desktop Tool: XDE
 XDE stands for Expo Development Environment. It is a standalone desktop app that includes all dependencies you'll need to get started.
 Download the latest version of XDE for macOS, Windows (64-bit), or Linux.
+https://docs.expo.io/versions/latest/introduction/installation.html
