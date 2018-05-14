@@ -12,7 +12,7 @@ Courtney Williams
 Curtis Gordon
 Charronda King
 
-<b>Project Description:</b> Kinfolk is a family event app where family members can create their own account to upload pictures and videos for each special family event to cherish family memories and connect with each family member during an event. Event itinerary can be customized and posted for every family member to view to help eliminate confusion. Location details of the event will also be available to view using a Google API. Kinfolk also includes chat integration so family members can communicate during events.
+<b>Project Description:</b> Kinfolk is a family event app where family members can create their own group account to connect with each family member during an event. The event itinerary can be customized and posted for every family member to view to help eliminate confusion. Kinfolk also includes chat integration so family members can communicate during events. The app will include a presonal Todo list so you can add your own todo's.  Future add ons: Location details of the event will also be available to view using a Google API. And the ability to upload pictures and videos for each special family event to cherish family memories and share durning the event.
 
 <b>APIs:</b> <br>
 Firebase API <br>
